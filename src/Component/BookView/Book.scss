@@ -1,0 +1,101 @@
+
+.divName {
+    background-color: #F5F5F5; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+}
+
+.BookTitle {
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.BookAuthor {
+    color: #656060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
+
+.BookPrice {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    padding-top: 2px;
+    width: 87%;
+}
+
+.BookDetail {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.BookBuyButton{
+    /* padding-left: 2px; */
+    color: white;
+    background-color: #a03037;
+    /* justify-content: space-evenly;
+    font-size: 3px;
+    font-weight: bold;
+    margin-left: 10px; */
+}
+
+.BookWishlist{
+    padding-left: 2px;
+    font-size: 3px;
+    margin-left: 12px;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 3px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.BookButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+} 
+
+.info {
+    display: block;
+    margin-bottom: 30px;
+    background-color : #FFFFFF;
+    height: 260px;
+    width: 205px;
+    border-color: gray;
+    flex-wrap: wrap;
+}
+
+.info:hover .bookInfo{
+    width: 500px;
+    display: block;
+    position: absolute;
+    min-height: 90px;
+    width: 180px;
+    margin-left: 208px;
+    margin-top: -244px;
+    background-color: white;
+    /* border:1px solid grey;  */
+    z-index: 100;
+}
+
+.bookInfo {
+    position: absolute;
+    display: none;
+}
+

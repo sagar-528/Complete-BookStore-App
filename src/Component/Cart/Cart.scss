@@ -1,0 +1,185 @@
+.userCard{
+    height: 300px;
+    width: 730px;
+    margin-left: 15%;
+     /* padding: 50px;
+     padding-top: 20px;
+     border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: initial;
+    margin-bottom: 10px;
+}
+
+.box{
+    overflow-y: scroll;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+.myCart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    width: 660px;
+    margin: 20px 33px ;
+}
+
+.mainCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 20px; */
+    justify-content: flex-start;
+     /* border: 1px solid red; */
+    width: 660px;
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.bookImages{
+    height: 90px;
+    width: 60px;
+}
+
+.cartPrice{
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    width: 87%;
+}
+
+.cartAuthor{
+    margin-left: 30%;
+        color: #656060;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        margin-top: 2px;
+}
+
+.cartTitle {
+    margin-left: 30%;
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2px;
+    font-weight: 500;
+}
+
+.placeHolder{
+    display : flex;
+    flex-direction: row;
+    justify-content:  flex-end;
+}
+
+.cartIcon{
+    margin-left: 15%;
+    
+}
+
+.textField{
+      width: 20;
+}
+
+.customerCard{
+     /* height: 324px; */
+    /* height: 580px; */
+    width: 730px;
+     /* padding: 50px;
+     padding-top: 20px; */
+    margin-left: 15%;
+     /* margin: auto; */
+}
+
+.customerDetails{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.textFieldRow{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 200px;
+}
+
+.textFieldAddress {
+    margin-left: 30px;
+    display : flex;
+    flex-direction: row;
+}
+
+.typeRadio{
+    padding-top: 3%
+}
+
+.mainOrderSummary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.orderButton{
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.CustomerPage {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.chekoutButton {
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px; 
+    margin-bottom: 10px;
+}
+
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+
+  .OrderCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .lastCard{
+    height: 300px;
+    width: 730px;
+    margin-left: 15%;
+     /* padding: 50px;
+     padding-top: 20px;
+     border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: initial;
+    margin-bottom: 50px;
+  }
+
+ 

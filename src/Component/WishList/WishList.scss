@@ -1,0 +1,89 @@
+.Card{
+    height: 340px;
+    width: 730px;
+    margin-left: 15%;
+     /* padding: 50px;
+     padding-top: 20px;
+     border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: initial;
+}
+
+.box{
+    overflow-y: scroll;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+
+.myCart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;  
+    width: 660px;
+    margin: 20px 33px ;
+}
+
+.wishCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+.cart{
+    display: flex;
+    /* padding-top: 20px; */
+     /* border: 1px solid red; */
+    width: 660px;
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.bookImages{
+    height: 90px;
+    width: 60px;
+}
+
+.cartPrice{
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    width: 87%;
+}
+
+.cartAuthor{
+    margin-left: 30%;
+        color: #656060;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        margin-top: 2px;
+}
+
+.cartTitle {
+    margin-left: 30%;
+    color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2px;
+    font-weight: 500;
+}
+
+.orderButton{
+    display : flex;
+    flex-direction: row;
+    justify-content:  flex-end;
+    margin-left: 100%;
+}
